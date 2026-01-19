@@ -12,4 +12,15 @@
             </class>
         </classes>
     </test>
+    <test name="Bing Search Tests" preserve-order="true">
+        <classes>
+            <class name="com.automation.framework.tests.BingSearchTest">
+                <methods>
+                    <include name="testBingHomePageLoaded"/>
+                    <include name="testBingPageTitle"/>
+                    <include name="testBingSearchBreakingNews"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>

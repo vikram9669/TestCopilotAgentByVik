@@ -1,0 +1,39 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+
+# Build
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+log4j2.log
+
+# OS
+.DS_Store
+Thumbs.db
+.project
+.classpath
+.settings/
+
+# Test artifacts
+test-output/
+surefire-reports/
+allure-results/
+
+# Maven
+.maven/
+maven.jar
+
+# Dependencies
+node_modules/
+*.lock

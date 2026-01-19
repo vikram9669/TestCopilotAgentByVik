@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Automation Test Suite" parallel="false" thread-count="1">
+    <test name="Google Search Tests" preserve-order="true">
+        <classes>
+            <class name="com.automation.framework.tests.GoogleSearchTest">
+                <methods>
+                    <include name="testGoogleHomePageLoaded"/>
+                    <include name="testGooglePageTitle"/>
+                    <include name="testGoogleSearchFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
